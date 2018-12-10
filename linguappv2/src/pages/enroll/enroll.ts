@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-enroll',
   templateUrl: 'enroll.html'
 })
-export class Enroll {
+export class EnrollPage {
 
   constructor(public navCtrl: NavController) {
 
