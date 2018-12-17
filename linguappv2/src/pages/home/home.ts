@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { EnrollPage } from '../enroll/enroll';
+import { EnrollComponent } from '../../components/enroll/enroll';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +13,7 @@ export class HomePage {
 
   }
   clickEnroll() {
-    this.navCtrl.push(EnrollPage);
+    this.navCtrl.push(EnrollComponent);
     console.log("ahora deberia miau");
   }
   
